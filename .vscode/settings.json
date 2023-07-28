@@ -1,0 +1,19 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.pythonPath": ".venv/bin/python",
+    "python.autoComplete.extraPaths": [
+        ".venv/lib/python3.7/site-packages",
+        ".venv/lib/python3.7/lib"
+    ],
+    "python.analysis.extraPaths": [
+        ".venv/lib/python3.7/site-packages",
+        ".venv/lib/python3.7/lib"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "140"
+    ],
+}
